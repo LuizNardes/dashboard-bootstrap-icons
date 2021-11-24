@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- botao dos icones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <title>DASHBOARD BOOTSTRAP 5 RESPONSIVO</title>
+        </head>
+        <body>
+    <div class="d-flex" id="wrapper">
+    <!-- sidebar-->    
+    <div class="bg-white" id="sidebar-wrapper">
+    <div class="sidebar-heading text-center py-4 primary-text fs-4 fw-bold text-uppercase border-bottom">
+        <i class="fas fa-user-secret me-2"></i> sa senai 
+    </div>
+    <div class="list-group list-group-flush my-3">
+       
+        <a href="#" class="list-group-item list-group-iten-action bg-transparent second-text active">
+           <i class="fas fa-tachometer-alt me-2"></i> Dashboard </a>
+        <a href="#" class="list-group-item list-group-iten-action bg-transparent second-text fw-bold">
+           <i class="fas fa-project-diagram me-2"></i> Projetos </a>
+        <a href="#" class="list-group-item list-group-iten-action bg-transparent second-text fw-bold">
+          <i class="fas fa-chart-line me-2"></i> Análises </a>
+        <a href="#" class="list-group-item list-group-iten-action bg-transparent second-text fw-bold">
+          <i class="fas fa-paperclip me-2"></i> Relatórios </a>
+        <a href="#" class="list-group-item list-group-iten-action bg-transparent second-text fw-bold">
+          <i class="fas fa-shopping-cart me-2"></i> Gestão </a>
+        <a href="#" class="list-group-item list-group-iten-action bg-transparent second-text fw-bold">
+          <i class="fas fa-gift me-2"></i> Produtos </a>
+        <a href="#" class="list-group-item list-group-iten-action bg-transparent second-text fw-bold">
+          <i class="fas fa-comment-alt me-2"></i> Chat </a>
+        <a href="#" class="list-group-item list-group-iten-action bg-transparent second-text fw-bold">
+          <i class="fas fa-map-marker-alt me-2"></i> Promoção </a>
+        <a href="#" class="list-group-item list-group-iten-action bg-transparent text-danger fw-bold">
+          <i class="fas fa-power-off me-2"></i> Sair </a>
+    </div>
+    </div>
+    <!--  /#sidebar-wrapper -->
+    <!-- início page content -->
+    <div id="page-content-wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-4 px-4">
+            <div class="d-flex aling-itens-center">
+                <i class="fas fa-align-left primary-text fs-4 me-3" id="menu-toggle"></i>
+                <h2 class="fs-2 m-0">Dashboard</h2>
+            </div>
+            <button class="navbar-toggler" type="button"data-bs-toggle="collpase"
+            data-bs-target="#navebarSupportedContent" aria-controls="navbarSupportedContent"
+           aria-expanded="false" aria-label="toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                     <li class="nav-iten dropdown">
+                        <a class="nav-link dropdown-toggle second-text fw-bold" href="#" id="navebarDropdown"
+                         role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-user me-2"></i>Luiz Nardes
+                        </a> 
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a< class="dropdown-item" href="#">Perfil</a></li>
+                            <li><a< class="dropdown-item" href="#">Confg</a></li>
+                            <li><a< class="dropdown-item" href="#">Sair</a></li>
+                        </ul>
+                     </li>
+
+                 </ul>
+            </div> 
+        </nav>
+    </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>

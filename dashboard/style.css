@@ -1,0 +1,34 @@
+:root{
+    --main-bg-color: #72efdd;
+    --main-text-color:#6930c3;
+    --second-text-color:#1a759f;
+    --second-bg-color: #52b69a;   
+}
+
+.primary-text {
+    color: var(--main-text-color);
+}
+
+.second-text{
+    color: var(--second-text-color);
+}
+
+.primary-br{
+    background-color: var(--main-bg-color);
+}
+
+.secondary-bg{
+    background-color: var(--second-bg-color);
+}
+
+#wrapper {
+    overflow-y: hidden;
+    background-image: linear-gradient(
+        to top,
+        #ade8f4,
+        #90e0ef,
+        #48cae4,
+        #00b4d8,
+        #0096c7
+    );
+}
