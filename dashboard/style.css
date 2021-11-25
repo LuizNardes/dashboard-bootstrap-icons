@@ -81,7 +81,7 @@
 }
 
 /* colocando cor na lista com classe active */
-.list-group-item-action {
+.list-group-item.active {
     color: var(--main-text-color);
     background-color: transparent;
     font-weight: bold;
